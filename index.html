@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+</head>
+<body>
+    <h1>Begin1.Kvadratning tomoni a berilgan. Uning perimetri aniqlansin. P=4*a</h1>
+    <h1>Begin2.Kvadratning tomoni a berilgan. Uning yuzasi aniqlansin.S=a2</h1>
+    <h1>Begin3.To'g'ri to'rtburchakning tomonlari a va b berilgan.Uning yuzasi S=a*b,va P=2*(a+b) perimetri aniqlansin.</h1>
+    <h1>Begin4.Aylananing diametri d berilgan. Uning uzunligi aniqlansin L=p*d p=3.14</h1>
+    <h1>Begin5.Kubning yon tomoni a berilgan.Uning hajmini V =a3 va to'la sirti S = 6*a2 aniqlansin</h1>
+    <h1>Begin6.Paralelepipedning tomonlari a, b, c berilgan.Uning hajmini V =a*b*c va to'la sirti S = 2*(a*b+b*c) aniqlansin.</h1>
+    <h1>Begin7.Doiraning radiusi R berilgan Uning uzunligi L va yuzasi S aniqlansin (a+b)/2</h1>
+    <h1>Begin8.Ikkita son a va b berilgan.Ularning o'rta arifmetigi aniqlansin. (a+b)/2</h1>
+    <h1>Begin9.Nolga teng bo'lmagan ikkita son berilgan.Ularning yig'indisini,ko'paytmasini va har birining kvadrati aniqlansin.</h1>
+    <h1>Begin10.Umumiy markazga bo'lgan ikkita aylana radiusi berilgan. R1,R2,(R1>R2). Ularning yuzalari S1 va S2, ularning ayirmasi S3 aniqlansin. S1 = pi*R1,S2 = pi*R2,S3 = pi*(R1-R2);</h1>
+
+<script>
+// number 
+// string  
+// null 
+// boolean 
+// undefined
+
+// 1 
+var p;
+var a = 12;
+p = 4*a;
+
+console.log("Kvadratning tomoni:",p);
+
+
+// 2
+var s;
+var a = 4;
+s = a**2;
+
+console.log("Kvadratning tomoni:",s);
+
+// 3
+var s;
+var a =3, b =4;
+s = a*b;
+
+var p;
+p =2*(a+b);
+
+console.log("Yuzasi:",s);
+console.log("Perimetri:",p);
+
+// 4
+const pi = 3.14;
+var d = 7;
+var l =d*pi;
+
+
+console.log("Aylana yuzi",l); 
+
+// 5
+var a = 5;
+var v = a**3;
+var s = 6* a**2;
+
+
+console.log("Hajmi:",v);
+console.log("To'la sirti:",s);
+
+// 6
+var a = 3;
+var b = 4;
+var c = 7;
+
+v = a*b*c;
+
+var s = 2 * (a*b + b*c + a*c);
+
+console.log("Hajmi:",v);
+console.log("To'la sirti:",s);
+
+
+// 7
+var r = 5;
+var l =2*pi*r;
+var s= pi*r**2;
+
+console.log("Uzunligi:",l);
+console.log("Doira yuzasi:",s);
+
+
+// 8
+var a = 12;
+var b = 4;
+var s = (a+b)/2;
+
+console.log("O'rta arifmetigi:",s);
+
+// 9
+var n = 2;
+var m = 4;
+var yigindi = n+m;
+var kopaytma = n*m;
+var kvadratN = n**2;
+var kvadratM = m**2;
+
+console.log("yigindi:",n+m);
+console.log("kopaytma:",n*m);
+console.log("kvadratN:",n**2);
+console.log("kvadratM:",m**2);
+
+// 10
+var R1 = 2;
+var R2 = 4;
+var S1 = pi*R1;
+var S2 = pi*R2;
+var S3 = pi*(R1-R2);
+
+console.log("yuzalari:",S1 = pi*R1);
+console.log("yuzalari:",S2 = pi*R2);
+console.log("ayirmasi:",S3 = pi*(R1-R2));
+    </script>
+</body>
+</html>
